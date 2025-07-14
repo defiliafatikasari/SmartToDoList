@@ -1,12 +1,90 @@
-# React + Vite
+# 📋 Smart To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart To-Do List adalah aplikasi manajemen tugas berbasis web yang modern dan responsif. Aplikasi ini dirancang dalam rangka Capstone Project dengan bantuan AI (IBM Granite) selama proses pengembangan untuk mempercepat, mendokumentasikan, dan menyempurnakan kode.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Fitur Utama
 
-## Expanding the ESLint configuration
+- ✅ Tambah/Edit/Hapus Tugas
+- 📂 Kategori Tugas (Kerja, Kuliah, Pribadi, Urgent)
+- 🌙 Dark Mode Toggle
+- 🔍 Pencarian dan Filter Tugas
+- 📅 Calendar View (highlight tugas berdasarkan tanggal)
+- ⏰ Reminder Otomatis via Notifikasi (berbasis deadline)
+- 📊 Statistik dan Progress Bar
+- 📤 Export Tugas ke Excel
+- 🧠 Penyimpanan Lokal (`localStorage`)
+- 📱 Tampilan Responsive & Grid Layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Tampilan Aplikasi
+
+### 📱 Desktop View (Light & Dark Mode)
+
+![Desktop Light Mode](./screenshots/desktop-light.png)
+![Desktop Dark Mode](./screenshots/desktop-dark.png)
+
+---
+
+## 🚀 Teknologi yang Digunakan
+
+| Teknologi         | Deskripsi                         |
+| ----------------- | --------------------------------- |
+| React.js          | Library utama untuk membangun UI  |
+| Tailwind CSS      | Styling responsif dan cepat       |
+| Vite              | Dev Server dan Bundler            |
+| xlsx + file-saver | Export data ke file Excel (.xlsx) |
+| React-Calendar    | Komponen kalender interaktif      |
+| Notification API  | Notifikasi browser untuk reminder |
+| localStorage      | Simpan data lokal (tanpa backend) |
+
+---
+
+## 📁 Struktur Folder
+
+smart-todo-app/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── TodoItem.jsx
+│ │ ├── CalendarView.jsx
+│ │ ├── DarkModeToggle.jsx
+│ │ ├── StatsProgress.jsx
+│ │ └── ExportExcel.jsx
+│ └── App.jsx
+├── README.md
+└── ...
+
+---
+
+## 🛠️ Cara Menjalankan Proyek
+
+1. **Clone repositori ini**
+   git clone https://github.com/username/smart-todo-app.git
+   cd smart-todo-app
+2. **Install dependencies**
+   npm install
+3. **Jalankan aplikasi**
+   npm run dev
+4. **Buka di browser**
+   http://localhost:5173
+
+🤖 Peran AI dalam Pengembangan:
+Dalam proyek ini, model AI (IBM Granite) digunakan untuk:
+Menyusun struktur kode dan file
+Membantu logika fungsi React & state management
+
+✨ Pengembangan Selanjutnya:
+🔐 Autentikasi User (Firebase Auth)
+☁️ Penyimpanan Data di Cloud (Firestore)
+📤 Share daftar tugas via email/whatsapp
+📱 PWA (Progressive Web App) support
+🎤 Voice Input (Tambahkan tugas dengan suara (Speech API))
+🧠 Integrasi AI (Gunakan AI untuk menyarankan task priority)
+💾 Export/Import (Simpan tugas ke `.json` atau `.csv`)
+
+👩‍💻 Developer
+Defilia Fatikasari – Teknik Informatika
+Capstone Project – 2025
