@@ -44,6 +44,7 @@ Smart To-Do List adalah aplikasi manajemen tugas berbasis web yang modern dan re
 
 ## 📁 Struktur Folder
 
+```bash
 smart-todo-app/
 ├── public/
 ├── src/
@@ -71,20 +72,36 @@ smart-todo-app/
 4. **Buka di browser**
    http://localhost:5173
 
-🤖 Peran AI dalam Pengembangan:
-Dalam proyek ini, model AI (IBM Granite) digunakan untuk:
-Menyusun struktur kode dan file
-Membantu logika fungsi React & state management
+---
 
-✨ Pengembangan Selanjutnya:
+🤖 Peran AI dalam Pengembangan
+Dalam proyek ini, model AI (IBM Granite) digunakan untuk:
+
+📁 Menyusun struktur kode dan file
+
+⚛️ Membantu logika fungsi React & state management
+
+---
+
+✨ Pengembangan Selanjutnya
 🔐 Autentikasi User (Firebase Auth)
+
 ☁️ Penyimpanan Data di Cloud (Firestore)
-📤 Share daftar tugas via email/whatsapp
-📱 PWA (Progressive Web App) support
-🎤 Voice Input (Tambahkan tugas dengan suara (Speech API))
-🧠 Integrasi AI (Gunakan AI untuk menyarankan task priority)
-💾 Export/Import (Simpan tugas ke `.json` atau `.csv`)
+
+📤 Share daftar tugas via Email/WhatsApp
+
+📱 PWA (Progressive Web App) Support
+
+🎤 Voice Input (Tambah tugas via Speech API)
+
+🧠 Integrasi AI (Saran otomatis prioritas tugas)
+
+💾 Export/Import .json atau .csv
+
+---
 
 👩‍💻 Developer
-Defilia Fatikasari – Teknik Informatika
+Defilia Fatikasari
+Program Studi Teknik Informatika
 Capstone Project – 2025
+```
