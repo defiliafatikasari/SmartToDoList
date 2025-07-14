@@ -1,6 +1,6 @@
-# 📋 Smart To-Do List
+# 📋 Smart To-Do List with AI-Assisted Development
 
-Smart To-Do List adalah aplikasi manajemen tugas berbasis web yang modern dan responsif. Aplikasi ini dirancang dalam rangka Capstone Project dengan bantuan AI (IBM Granite) selama proses pengembangan untuk mempercepat, mendokumentasikan, dan menyempurnakan kode.
+Smart To-Do List adalah aplikasi manajemen tugas berbasis web yang modern dan responsif. Aplikasi ini dirancang dalam rangka Capstone Project Hacktiv8 & IBM SkillBuild, dengan bantuan AI (IBM Granite) selama proses pengembangan untuk mempercepat, mendokumentasikan, dan menyempurnakan kode.
 
 ---
 
@@ -85,7 +85,7 @@ smart-todo-app/
 4. **Buka di browser**
 
 ```bash
-   http://localhost
+   http://localhost:
 ```
 
 ---
@@ -118,6 +118,14 @@ Dalam proyek ini, model AI (IBM Granite) digunakan untuk:
 🧠 Integrasi AI (Saran otomatis prioritas tugas)
 
 💾 Export/Import .json atau .csv
+```
+
+---
+
+🚀 Deployment Link
+
+```text
+https://smart-to-do-app-nine.vercel.app/
 ```
 
 ---
