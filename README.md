@@ -66,8 +66,8 @@ smart-todo-app/
 1. **Clone repositori ini**
 
 ```bash
-   git clone https://github.com/username/smart-todo-app.git
-   cd smart-todo-app
+   git clone https://github.com/username/SmartToDoList.git
+   cd SmartToDoList
 ```
 
 2. **Install dependencies**
@@ -85,7 +85,7 @@ smart-todo-app/
 4. **Buka di browser**
 
 ```bash
-   http://localhost:5173
+   http://localhost
 ```
 
 ---
