@@ -57,33 +57,54 @@ smart-todo-app/
 │ └── App.jsx
 ├── README.md
 └── ...
+```
 
 ---
 
 ## 🛠️ Cara Menjalankan Proyek
 
 1. **Clone repositori ini**
+
+```bash
    git clone https://github.com/username/smart-todo-app.git
    cd smart-todo-app
+```
+
 2. **Install dependencies**
+
+```bash
    npm install
+```
+
 3. **Jalankan aplikasi**
+
+```bash
    npm run dev
+```
+
 4. **Buka di browser**
+
+```bash
    http://localhost:5173
+```
 
 ---
 
 🤖 Peran AI dalam Pengembangan
+
+```text
 Dalam proyek ini, model AI (IBM Granite) digunakan untuk:
 
 📁 Menyusun struktur kode dan file
 
 ⚛️ Membantu logika fungsi React & state management
+```
 
 ---
 
 ✨ Pengembangan Selanjutnya
+
+```text
 🔐 Autentikasi User (Firebase Auth)
 
 ☁️ Penyimpanan Data di Cloud (Firestore)
@@ -97,9 +118,11 @@ Dalam proyek ini, model AI (IBM Granite) digunakan untuk:
 🧠 Integrasi AI (Saran otomatis prioritas tugas)
 
 💾 Export/Import .json atau .csv
+```
 
 ---
 
+```bash
 👩‍💻 Developer
 Defilia Fatikasari
 Program Studi Teknik Informatika
